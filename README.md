@@ -21,9 +21,12 @@ Slamjam also has implemtation for BASEPID:SIZEPID quicktasks (recommended), e.g.
 These modules are both for the drops.... domains, the `module` for both of these is `farfetch` and the store for off---white is `owd` and the store for ambush is `amd`, an example quicktask link is `http://localhost:8232/quicktask?module=farfetch&site=owd&items=17606488`
 
 ## Footasylum
-For footasylum, the `module` is `asylum` and the `site`is `footasylum`, we support size pids for quicktasks, an example of a quicktask link would be `http://localhost:8232/quicktask?module=asylum&site=footasylum&items=4051961101,4051961105`
+For Footasylum, the `module` is `asylum` and the `site`is `footasylum`, we support size pids for quicktasks, an example of a quicktask link would be `http://localhost:8232/quicktask?module=asylum&site=footasylum&items=4051961101,4051961105`
 
 ## KithEU
-For kith, the `module` and `site` would both be `kith`, and we use the end part of the product url in the `items` field. e.g. if the product is `https://eu.kith.com/products/nkda3940-010`, then the quicktask url would be `http://localhost:8232/quicktask?module=kith&site=kith&items=nkda3940-010`, we only support base pids
+For Kith, the `module` and `site` would both be `kith`, and we use the end part of the product url in the `items` field. e.g. if the product is `https://eu.kith.com/products/nkda3940-010`, then the quicktask url would be `http://localhost:8232/quicktask?module=kith&site=kith&items=nkda3940-010`, we only support base pids
+
+## Zalando
+For Zalando, the `module` is `zalando`, with the `site` being the region you want to run, for example `zalando-de`. We use the product url in the `items` field. e.g.  `https://en.zalando.de/the-north-face-easy-print-t-shirt-th342d00u-a11.html`, for this item the quicktask url would be `http://localhost:8232/quicktask?module=zalando&site=zalando-de&items=https://en.zalando.de/the-north-face-easy-print-t-shirt-th342d00u-a11.html`, we only support base pids
 
 This is examples for all sites supported currently, updated 21/12/2021, if you have any questions regarding this, please feel free to dm either Vastid#0001, Austin.#1111 or WILL#9999
