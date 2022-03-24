@@ -27,6 +27,6 @@ For Footasylum, the `module` is `asylum` and the `site`is `footasylum`, we suppo
 For Kith, the `module` and `site` would both be `kith`, and we use the end part of the product url in the `items` field. e.g. if the product is `https://eu.kith.com/products/nkda3940-010`, then the quicktask url would be `http://localhost:8232/quicktask?module=kith&site=kith&items=nkda3940-010`, we only support base pids
 
 ## Zalando
-For Zalando, the `module` is `zalando`, with the `site` being the region you want to run, for example `zalando-de`. We use the product url in the `items` field. e.g.  `https://en.zalando.de/the-north-face-easy-print-t-shirt-th342d00u-a11.html`, for this item the quicktask url would be `http://localhost:8232/quicktask?module=zalando&site=zalando-de&items=https://en.zalando.de/the-north-face-easy-print-t-shirt-th342d00u-a11.html`, we only support base pids
+For Zalando, the `module` is `zalando`, with the `site` being the region you want to run, for example `zalando-de`. We use the product url in the `items` field. e.g.  `https://en.zalando.de/the-north-face-easy-print-t-shirt-th342d00u-a11.html`, for this item the quicktask url would be `http://localhost:8232/quicktask?module=zalando&site=zalando-de&items=https://en.zalando.de/the-north-face-easy-print-t-shirt-th342d00u-a11.html`.
 
 This is examples for all sites supported currently, updated 21/12/2021, if you have any questions regarding this, please feel free to dm either Vastid#0001, Austin.#1111 or WILL#9999
